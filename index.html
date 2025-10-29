@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=700, initial-scale=1" />
+<title>Victoria's Journal</title>
+<style>
+  body {
+    font-family: Verdana, sans-serif;
+    background-color: #cfe4e4;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  #container {
+    background: #dbf2f2;
+    width: 650px;
+    padding: 15px;
+    border: 2px solid #a8d5d6;
+  }
+
+  #header {
+    background: #addede;
+    height: 50px;
+    border: 2px solid #a8d5d6;
+    text-align: right;
+    padding: 8px 15px 0 0;
+    color: #5bb3b3;
+    font-size: 1.25em;
+  }
+  #header small {
+    display: block;
+    font-size: 0.8em;
+    color: #b3d8d8;
+    font-style: normal;
+    margin-top: 3px;
+  }
+
+  #friends {
+    background: #29bdbd;
+    color: #135656;
+    width: 150px;
+    font-weight: bold;
+    padding: 18px 15px 15px 15px;
+    box-sizing: border-box;
+    float: left;
+    border: 2px solid #0d9d9d;
+  }
+  #friends h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #239393;
+    font-size: 1.2em;
+  }
+  #friends ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+  #friends ul li {
+    list-style-type: disc;
+    margin-bottom: 9px;
+    font-weight: normal;
+    font-size: 0.97em;
+    color: #ffffff;
+  }
+  #friends ul li b {
+    color: #ffe666;
+  }
+
+  #posts {
+    margin-left: 170px;
+    border: 2px solid #a8d5d6;
+    background: #dff2f2;
+    padding: 10px 15px 15px 15px;
+    box-sizing: border-box;
+  }
+
+  .post {
+    border: 2px solid #a8d5d6;
+    background: #def4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 0.92em;
+    color: #b36d6b;
+  }
+  .post-title {
+    color: #26bdbd;
+    font-weight: normal;
+    margin: 0 0 5px 0;
+    font-size: 1.1em;
+  }
+  .post-title a {
+    color: #26bdbd;
+    text-decoration: none;
+  }
+  .post-content {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  .post-content p {
+    flex: 1;
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #b36d6b;
+  }
+  .post-content img {
+    height: 120px; /* Increased from 100px */
+    width: 110px;  /* Increased from 90px */
+    object-fit: contain;
+    border: 1.5px solid #b3e2e2;
+    background: #fff;
+  }
+</style>
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      Victoria's Journal
+      <small>So fresh and so clean</small>
+    </div>
+
+    <div id="friends">
+      <h2>Friends</h2>
+      <ul>
+        <li>390 Buddies</li>
+        <li>Big Will</li>
+        <li>Conan The Librarian</li>
+      </ul>
+    </div>
+
+    <div id="posts">
+
+      <div class="post">
+        <h3 class="post-title"><a href="#">04/09/08:</a> Spatulas</h3>
+        <div class="post-content">
+          <p>Yesterday, I went to the store and got some much needed spatulas! (what better way to say I love myself than to buy myself a spatula?)</p>
+          <img src="C:\Users\l253009\Downloads\71ARSWzCZBL._AC_UF894,1000_QL80_.jpg" alt="Spatula" />
+        </div>
+      </div>
+
+      <div class="post">
+        <h3 class="post-title"><a href="#">04/08/08:</a> Cookie Cupcakes</h3>
+        <div class="post-content">
+          <p>My favorite cartoon character is cookie, and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both the worlds. Did you know? Cookie character once said, Sometimes me think what is love, and then me think love is what cookie is for. Me give up the last cookie for you. " I woonder if the same applies for the cupcakes? (If so, I don't think I can ever love ANYONE!)</p>
+          <img src="C:\Users\l253009\Downloads\istockphoto-655156000-612x612.jpg" alt="Cookie Cupcakes" />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
